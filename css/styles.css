@@ -1,0 +1,35 @@
+/*---------------------HEADER-------------------------*/
+
+h1 {
+  text-align: center;
+}
+
+/*---------------BASIC TABLE STRUCTURE-------*/
+table {
+  border: 15px solid grey;
+  width: 700px;
+  height: 500px;
+  margin:auto;
+  margin-top: 55px;
+  padding: 2px;
+}
+
+/*---------------TABLE HEADER----------------*/
+.topper {
+  background-color: yellow;
+}
+
+/*---------------INSIDE TABLE STRUCTURE-------*/
+tbody tr:nth-child(odd) {
+  background: #eee;
+  border: 2px solid black;
+}
+td:hover { /* th:hover also if you wish */
+  background: cornflowerblue;
+}
+
+/*---------------FORM----------------*/
+
+.form {
+  padding: 15px;
+}

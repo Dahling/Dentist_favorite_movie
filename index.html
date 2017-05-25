@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Rotten Tomatoes</title>
+  </head>
+  <body>
+    <form>
+        <div class="form">
+          <h2>Add a movie:</h2>
+            <div class="form-group">
+              <label for="new-movie"></label>
+              <input type="text" class="form-control" id="input-movie">
+            </div>
+            <h2>Add the year:</h2>
+              <div class="form-group">
+                <label for="new-year"></label>
+                <input type="text" class="form-control" id="input-year">
+              </div>
+              <h2>Add the Tomatometer Score:</h2>
+                <div class="form-group">
+                  <label for="new-score"></label>
+                  <input type="text" class="form-control" id="input-score">
+                </div>
+                <button type="submit" class="btn">Submit</button>
+              </div>
+    </form>
+    <h1>The top 10 amazing movies The Dentist loves!</h1>
+    <table id="table">
+      <thead class="topper">
+        <tr>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Tomatometer</th>
+        </tr>
+        <tbody class=body>
+        </tbody>
+      </thead>
+
+
+    </table>
+  </body>
+</html>
